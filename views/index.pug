@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .navbar
+    .icon
+      img.popcorn(src="../images/food.svg")
+    .navlinks
+      a(href="/genre") Genre
+      a(href="/director") Director
+      a(href="/decade") Decade
+      a(href="/games") Games
+      a(href="/tutorial") Tutorial
+    .searchbar
+      input.searchinput(type="text")
+    .searchicon
+      img.searchsvg(src="../images/magnifier.svg")
+  .background
+    img.backgroundimage(src="../images/Silence of the lambs.jpg" style="height: 100%; width: 100%")
