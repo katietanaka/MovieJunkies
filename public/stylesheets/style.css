@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  background-image: url("../images/symphony.png");
-  background-repeat: repeat;
 }
 .navbar {
   display: grid;
@@ -22,18 +20,20 @@ body {
 .navlinks {
   grid-column: 2;
   grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
   text-align: center;
   line-height: 15vh;
 }
 .navlinks > a{
   font-family: "Helvetica-light";
-  font-size: 1em;
+  font-size: 2vw;
   text-decoration: none;
-  color: black;
-  margin: 5%;
+  color: white;
 }
 .navlinks > a:hover{
-  color: white;
+  color: black;
 }
 .searchbar {
   grid-column: 3;
@@ -41,9 +41,9 @@ body {
   
 }
 .searchinput {
-  margin-top: 12.5%;
+  margin-top: 20px;
   border-radius: 25px;
-  visibility: hidden;
+  width: 10vw;
 }
 textarea:focus, input:focus{
   outline: none;
@@ -56,8 +56,8 @@ textarea:focus, input:focus{
 .searchsvg {
   height: 50%;
   width: 50%;
-  margin-top: 12.5%;
-  margin-left: 25%
+  margin-top: 12.5px;
+  margin-left: 5px;
 }
 .background {
 display: grid;
