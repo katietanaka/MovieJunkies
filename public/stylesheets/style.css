@@ -50,7 +50,7 @@ body {
   border-radius: 30px;
   width: 12vw;
   height: 2vh;
-  margin-top: 25px;
+  margin-top: 6vh;
 }
 textarea:focus, input:focus{
   outline: none;
@@ -60,7 +60,7 @@ textarea:focus, input:focus{
   grid-row: 1;
   height: 50%;
   width: 50%;
-  margin-top: 12.5px;
+  margin-top: 4vh;
 }
 .login {
   text-align: center;
