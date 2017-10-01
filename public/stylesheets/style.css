@@ -1,11 +1,18 @@
 body {
   margin: 0;
+  /*background-image: url("../images/dark-triangles.png")*/
+  background-color: #9AC2C5;
+}
+form{
+  height: 100%;
+  width: 100%;
 }
 .navbar {
   display: grid;
   grid-template-columns: 1fr 5fr 2fr 2fr;
   grid-template-rows: 15vh;
-  background-color: #54D0B9
+  border-bottom: 5px solid white;
+  /*background-color: #ECCE8E;*/
 }
 .popcorn {
   height: 75%; 
@@ -16,6 +23,7 @@ body {
 .icon {
   grid-column: 1;
   grid-row: 1;
+  border-right: 5px solid white;
 }
 .navlinks {
   grid-column: 2;
@@ -33,7 +41,7 @@ body {
   color: white;
 }
 .navlinks > a:hover{
-  color: black;
+  color: yellow;
 }
 .searchbar {
   grid-column: 3;
@@ -47,10 +55,9 @@ body {
 .searchinput {
   grid-row: 1;
   grid-column: 1;
-  border-radius: 30px;
-  width: 12vw;
-  height: 2vh;
-  margin-top: 6vh;
+  width: 100%;
+  height: 2.5vh;
+  margin-top: 5.5vh;
 }
 textarea:focus, input:focus{
   outline: none;
@@ -60,21 +67,48 @@ textarea:focus, input:focus{
   grid-row: 1;
   height: 3vh;
   width: 3vh;
-  margin-top: 6vh;
+  margin-top: 5.5vh;
+  margin-left: 20px;
 }
 .login {
   text-align: center;
 }
 .login > a{
-  color: white;
+  color: grey;
   font-family: "Helvetica-light";
   font-size: 2vw;
 }
 .login > a:hover {
-  color: black;
+  color: white;
 }
-.background {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 85vh;
+.sidenav {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 70vh;
+}
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row: 1;
+  grid-column: 1;
+  background-color: lightgrey;
+  height: 100%;
+  width: 100%;
+
+}
+.featuredfilm {
+  grid-row: 1;
+  grid-column: 2;
+}
+.myfooter {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh;
+}
+.footerbackground {
+  grid-row: 1;
+  grid-column: 1;
+  background-image: url("../images/diagmonds.png");
+  background-repeat: repeat;
 }
