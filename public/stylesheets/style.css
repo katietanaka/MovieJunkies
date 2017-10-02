@@ -84,7 +84,7 @@ textarea:focus, input:focus{
 .sidenav {
   display: grid;
   grid-template-columns: 2fr 8fr;
-  grid-template-rows: 70vh;
+  grid-template-rows: 85vh;
 }
 .sidebar {
   display: grid;
