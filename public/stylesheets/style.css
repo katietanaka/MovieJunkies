@@ -23,7 +23,6 @@ form{
 .icon {
   grid-column: 1;
   grid-row: 1;
-  border-right: 5px solid white;
 }
 .navlinks {
   grid-column: 2;
@@ -74,9 +73,9 @@ textarea:focus, input:focus{
   text-align: center;
 }
 .login > a{
-  color: grey;
+  color: white;
   font-family: "Helvetica-light";
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .login > a:hover {
   color: white;
