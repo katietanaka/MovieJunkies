@@ -1,0 +1,24 @@
+#imageGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+figure
+{
+    margin: 0 auto;
+}
+
+main
+{
+    /*background-color: rgb(39, 158, 134);
+    opacity: 0.2;*/
+}
+
+.images
+{
+    margin: 2em;
+    width: 50%
+}
